@@ -9,7 +9,7 @@ const Tech = () => {
       
 
       <p className=' text-xl text-center mt-6 font-semibold '>Here are a few past projects I've worked on. Want to see more ?
-         <a href='https://github.com/ritikp05' target='_blank' className='underline  text-blue-700 text-sm hover:underline  text-lg hover:font-bold'> Checkout Github</a>
+         <a href='https://github.com/ritikp05' target='_blank' className='underline  text-blue-700 text-lg hover:underline  text-lg hover:font-bold pl-1'> Checkout Github</a>
      </p>
       
             {
