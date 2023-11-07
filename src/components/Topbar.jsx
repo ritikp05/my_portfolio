@@ -7,7 +7,7 @@ const Topbar = () => {
       <div className='text-center'>
         <span className='font-sans text-4xl font-semibold pr-10 '>
 
-          Hii,I'm
+          Hello,I'm
         </span>
         <div className='font-poppins font-bold text-5xl mt-4 text-orange-600 tracking-widest '>
           Ritik Pandey
