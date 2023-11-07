@@ -24,7 +24,10 @@ const Navbar = () => {
       duration={1000}
       delay={300}>Projects</Link>
               
-                <a href='' download className=' mt-2 text-xl'>Resume</a>
+                <a href='' download className=' mt-2 text-xl '>
+                <button className=' text-yellow-300 bg-black px-2 hover:text-white rounded-lg'>
+                Resume
+                </button></a>
 
             </section>
 
@@ -51,7 +54,9 @@ const Navbar = () => {
       delay={200}  className='block mb-3 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>About</Link>
        <Link to='project' spy={true} smooth={true}  offset={-60}  duration={1000}
       delay={300}  className='block mb-3 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>Projects</Link>
-                    <a href='' download className='block mb-3 text-2xl '>Resume</a>
+                    <a href='' download className='block mb-3 text-2xl '>  <button className=' text-yellow-300 bg-black px-2 hover:text-white rounded-lg'>
+                Resume
+                </button></a>
                     <button className='mt-4 ml-2 '>
 
                         <AiOutlineClose className='text-3xl' onClick={() => setopen(false)} />
