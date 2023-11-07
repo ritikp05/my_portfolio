@@ -8,9 +8,9 @@ const About = () => {
                     <div className='pt-6 text-3xl font-semibold text-center '>
                         Hii, I'm Ritik Pandey
                         <span className='block lg:inline md:inline sm:inline xl:inline'> Nice to meet you.</span>
-                    </div>
+                    </div> 
                     <h3 className='mt-1 text-center text-slate-100  text-xl'>
-                        Currently a student, Pursuing Diploma in Information Technology  at Gp kashipiur,Uttarakhand.
+                        Currently a student, Pursuing Diploma in Information Technology  at Gp Kashipiur,Uttarakhand.
                     </h3>
                     <h3 className='text-center  text-slate-100  text-xl'>
                         developing scalable frontend using HTML, CSS and React.js.
