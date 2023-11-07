@@ -8,8 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
-        'Exo': ['Exo', 'sans-serif'],
-        'Kalam' : ['Kalam', 'cursive']
+        'Kalam' : ['Kalam', 'cursive'],
+        'Monoton':[ 'Monoton', 'sans-serif'],
+        'Mali': ['Mali', 'cursive']
       },
     },
   },

@@ -43,7 +43,7 @@ const Topbar = () => {
         src={img11}
           />
       </div>
-      <div className="flex justify-center m-2 font-mono text-2xl text-center">
+      <div className="flex justify-center m-2 font-Mali text-2xl text-center">
         I love to code explore and helping out others
       </div>
      

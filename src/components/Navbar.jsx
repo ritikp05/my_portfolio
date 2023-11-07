@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className=' w-full bg-purple-800 h-14  text-white flex justify-between fixed z-40'>
 
             <section >
-                <h1 className='pl-4 font-poppins text-4xl text-yellow-300 tracking-widest italic   mt-2 hover:not-italic'>RITIK</h1>
+                <h1 className='pl-4 font-Monoton text-4xl text-yellow-300 tracking-widest italic   mt-2 hover:not-italic'>RITIK</h1>
             </section>
 
             <section className='sm:flex md:flex lg:flex hidden gap-4 pr-4'>
@@ -47,7 +47,7 @@ const Navbar = () => {
         {
             open && <section className=' text-white bg-slate-400 shadow-lg w-32 fixed z-50 right-0  h-auto float-right lg:hidden md:hidden sm:hidden'>
                 <div className=' pl-4 mt-24 pb-8 '>
-                    <Link to="topbar" spy={true} smooth={true} offset={10}
+                    <Link to="topbar" spy={true} smooth={true} offset={5}
       duration={1000}
       delay={300} className='block mb-3 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)} >Home</Link>
                     <Link to='about' spy={true} smooth={true}  offset={-60}  duration={1000}
