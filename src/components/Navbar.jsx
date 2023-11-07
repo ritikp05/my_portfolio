@@ -42,16 +42,16 @@ const Navbar = () => {
         </div>
 
         {
-            open && <section className=' text-white bg-slate-400 w-32 fixed z-50 right-0  h-screen float-right lg:hidden md:hidden sm:hidden'>
+            open && <section className=' text-white bg-slate-400 w-32 fixed z-50 right-0  h-auto float-right lg:hidden md:hidden sm:hidden'>
                 <div className=' pl-4 mt-24 pb-8 '>
                     <Link to="topbar" spy={true} smooth={true} offset={10}
       duration={1000}
-      delay={300} className='block mb-2 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)} >Home</Link>
+      delay={300} className='block mb-3 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)} >Home</Link>
                     <Link to='about' spy={true} smooth={true}  offset={-60}  duration={1000}
-      delay={200}  className='block mb-2 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>About</Link>
+      delay={200}  className='block mb-3 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>About</Link>
        <Link to='project' spy={true} smooth={true}  offset={-60}  duration={1000}
-      delay={300}  className='block mb-2 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>Projects</Link>
-                    <a href='' download className='block text-2xl '>Resume</a>
+      delay={300}  className='block mb-3 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>Projects</Link>
+                    <a href='' download className='block mb-3 text-2xl '>Resume</a>
                     <button className='mt-4 ml-2 '>
 
                         <AiOutlineClose className='text-3xl' onClick={() => setopen(false)} />
