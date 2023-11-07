@@ -5,7 +5,7 @@ import { BsFire } from "react-icons/bs";
 function Contact() {
   return (
     <>
-      <div className="mt-8 flex flex-col items-center h-full p-4 bg-indigo-950 justify-evenly sm:flex lg:flex-row rounded-3xl sm:py-4 ">
+      <div className="mt-8 flex flex-col items-center h-full p-4 bg-indigo-950 justify-evenly sm:flex lg:flex-row sm:py-4 ">
         <div className="mb-6 font-serif text-3xl font-extrabold text-center text-white ">
           Start a Project
         </div>
@@ -26,7 +26,7 @@ function Contact() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center h-full pt-8 bg-blue-500">
+      <div className="flex flex-col items-center justify-center mt-8 h-full pt-8 bg-blue-500">
         <div className=" cursor-pointer font-[Cursive] text-3xl transition ease-in-out delay-150 text-yellow-200 hover:-translate-y-1 hover:scale-110 duration-300">
         R I T I K
         </div>

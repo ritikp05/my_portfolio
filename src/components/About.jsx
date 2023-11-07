@@ -6,9 +6,9 @@ const About = () => {
             <section  id='about'>
 <div className='bg-blue-400 shadow-lg mt-10 mx-auto w-full rounded-md flex-col gap-2'>
 
-                <h1 className='text-2xl  text-center pt-4'>Hii,I'm Ritik Pandey
+                <h1 className='text-2xl font-semibold  text-center pt-4'>Hii, I'm Ritik Pandey
                </h1>
-                <h1 className='text-2xl  text-center '>
+                <h1 className='text-2xl font-semibold text-center '>
                 Nice to meet you.</h1>
                 <h3 className='mt-1 text-center text-slate-100  text-xl'>
                     Currently a student,Persuing Diploma in Information Technology  at Gp kashipiur,Uttarakhand.
