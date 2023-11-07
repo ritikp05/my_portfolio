@@ -46,12 +46,12 @@ const Navbar = () => {
                 <div className=' pl-4 mt-24 pb-8 '>
                     <Link to="topbar" spy={true} smooth={true} offset={10}
       duration={1000}
-      delay={300} className='block mb-2 hover:underline hover:cursor-pointer' onClick={() => setopen(false)} >Home</Link>
+      delay={300} className='block mb-2 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)} >Home</Link>
                     <Link to='about' spy={true} smooth={true}  offset={-60}  duration={1000}
-      delay={200}  className='block mb-2 hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>About</Link>
+      delay={200}  className='block mb-2 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>About</Link>
        <Link to='project' spy={true} smooth={true}  offset={-60}  duration={1000}
-      delay={300}  className='block mb-2 hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>Projects</Link>
-                    <a href='' download className='block'>Resume</a>
+      delay={300}  className='block mb-2 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>Projects</Link>
+                    <a href='' download className='block text-2xl '>Resume</a>
                     <button className='mt-4 ml-2 '>
 
                         <AiOutlineClose className='text-3xl' onClick={() => setopen(false)} />
