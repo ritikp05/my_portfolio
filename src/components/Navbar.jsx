@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
 
         {
-            open && <section className=' text-white bg-slate-400 w-32 fixed z-50 right-0  h-auto float-right lg:hidden md:hidden sm:hidden'>
+            open && <section className=' text-white bg-slate-400 shadow-lg w-32 fixed z-50 right-0  h-auto float-right lg:hidden md:hidden sm:hidden'>
                 <div className=' pl-4 mt-24 pb-8 '>
                     <Link to="topbar" spy={true} smooth={true} offset={10}
       duration={1000}
