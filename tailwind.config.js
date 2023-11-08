@@ -10,7 +10,8 @@ export default {
         'poppins': ['Poppins', 'sans-serif'],
         'Kalam' : ['Kalam', 'cursive'],
         'Monoton':[ 'Monoton', 'sans-serif'],
-        'Mali': ['Mali', 'cursive']
+        'Mali': ['Mali', 'cursive'],
+        'Tourney':[ 'Tourney', 'sans-serif']
       },
     },
   },

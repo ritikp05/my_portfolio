@@ -15,20 +15,15 @@ const Topbar = () => {
 
       <TypeAnimation
               aria-hidden="true"
-        className="flex justify-center h-full my-10 font-mono text-2xl font-extrabold text-purple-800 md:text-4xl lg:text-6xl lg:my-16"
+        className="flex justify-center h-full mb-10 mt-6 font-Tourney text-2xl font-extrabold text-purple-800 md:text-4xl lg:text-6xl lg:my-16"
 
         sequence={[
-          'Developer',
+          '<Developer/>',
           300,
-          'Developer|',
+          '',
           300,
-          'Developer|Student',
+          '<Student/>',
           2000,
-          'Developer|',
-          90,
-          ,
-          'Developer',
-          90,
           '',
           30
         ]}
