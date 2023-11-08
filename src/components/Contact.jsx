@@ -49,7 +49,7 @@ function Contact() {
             </div>
           </a>
        
-          <a href="mailto:kushagarakp10@gmail.com@gmail.com" target="_blank">
+          <a href="mailto:kushagarakp10@gmail.com" target="_blank">
             <img
               className="w-10 h-10 p-1 m-2 border border-black rounded-full "
               src="https://cdn.discordapp.com/attachments/1001501223750479953/1132886379571970138/pngwing.com_3.png"
