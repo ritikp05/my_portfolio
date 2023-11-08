@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className=' w-full bg-purple-800 h-14  text-white flex justify-between fixed z-40'>
 
             <section >
-                <h1 className='pl-4 font-Monoton text-4xl text-yellow-300 tracking-widest italic   mt-2 hover:not-italic'>RITIK</h1>
+                <h1 className='pl-2 font-Monoton text-4xl text-yellow-300 tracking-widest italic   mt-1 hover:not-italic'><span className='text-5xl text-green-400'>R</span>ITIK</h1>
             </section>
 
             <section className='sm:flex md:flex lg:flex hidden gap-4 pr-4'>
