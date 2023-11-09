@@ -8,7 +8,7 @@
     padding: 6px 20px;
     font-size: 14px;
     font-weight: 500;
-    font-family:cursive;
+    font:italic;
     text-transform: uppercase;
     color: white;
     background-color:black;
@@ -36,8 +36,8 @@
     right: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #3fbf49, #b5b50a);
-    transition: all 0.85s ease-in-out;
+    background: linear-gradient(to right, #bf813f, #ef32b3);
+    transition: all 1.2s ease-in-out;
     z-index: -1;
     border-radius: 50px;
   }

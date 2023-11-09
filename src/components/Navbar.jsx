@@ -7,7 +7,7 @@ const Navbar = () => {
     const [open, setopen] = useState(false)
     return (<>
 
-        <div className=' w-full bg-purple-800 h-14  text-white flex justify-between fixed z-40'>
+        <div className=' w-full bg-purple-800 h-14  text-white flex justify-between fixed top-0 z-40'>
 
             <section >
                 <h1 className='pl-2 font-Monoton text-4xl text-yellow-300 tracking-widest italic   mt-1 hover:not-italic'><span className='text-5xl text-green-400'>R</span>ITIK</h1>
@@ -31,8 +31,8 @@ const Navbar = () => {
             </section>
 
 
-            <section className='lg:hidden sm:hidden md:hidden pr-4 '>
-                <button className='text-4xl mt-2' onClick={() => {
+            <section className='lg:hidden sm:hidden md:hidden pr-4  '>
+                <button className='text-4xl mt-2 ' onClick={() => {
                     Setnavbar(!navbar);
                     setopen(!open);
                 }}>
@@ -42,9 +42,10 @@ const Navbar = () => {
             </section>
 
         </div>
-
-        {
-            open && <section className=' text-white bg-slate-400 shadow-lg w-32 fixed z-50 right-0  h-auto float-right lg:hidden md:hidden sm:hidden'>
+          {
+            open &&
+            <section
+               className=' text-white bg-slate-400 rounded-bl-xl  shadow-lg w-32 right-0 fixed z-50 top-0 duration-1000   ease-in h-auto sm:hidden'> 
                 <div className=' pl-4 mt-24 pb-8 '>
                     <Link to="topbar" spy={true} smooth={true} offset={5}
       duration={1000}
@@ -65,8 +66,8 @@ const Navbar = () => {
 
             </section>
 
+          } 
 
-        }
     </>
 
     )
