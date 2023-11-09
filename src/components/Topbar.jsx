@@ -1,6 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import img11 from '../assets/img4.jpg'
+import resume from '../assets/resume.pdf';
 const Topbar = () => {
   return (
     <section id='topbar' className='pt-28'>
@@ -43,7 +44,7 @@ const Topbar = () => {
       </div>
       <div className='flex justify-center mt-6 '>
 
-        <a href='' download className='block mb-3 text-2xl '>
+        <a href={resume} download className='block mb-3 text-2xl '>
           <button className="button ">
             get my resume
           </button>
