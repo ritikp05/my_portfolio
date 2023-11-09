@@ -14,7 +14,7 @@ const Topbar = () => {
         </div>  </div>
 
       <TypeAnimation
-              aria-hidden="true"
+        aria-hidden="true"
         className="flex justify-center h-full mb-10 mt-6 font-Tourney text-3xl font-extrabold text-purple-800 md:text-4xl lg:text-5xl lg:my-16"
 
         sequence={[
@@ -27,7 +27,7 @@ const Topbar = () => {
           '',
           30
         ]}
-     
+
         deletionSpeed={90}
         speed={{ type: "keyStrokeDelayInMs", value: 250 }}
         repeat={Infinity}
@@ -35,14 +35,23 @@ const Topbar = () => {
       <div className="flex justify-center ">
         <img
           className="h-80 md:h-96 lg:h-96 border-4 border-gray-300 sm:h-96 xl:h-96 rounded-full"
-        src={img11}
-          />
+          src={img11}
+        />
       </div>
       <div className="flex justify-center m-2 font-Mali text-2xl text-center">
         I love to code explore and helping out others
       </div>
-     
-     
+      <div className='flex justify-center mt-6 '>
+
+        <a href='' download className='block mb-3 text-2xl '>
+          <button className="button ">
+            get my resume
+          </button>
+        </a>
+
+      </div>
+
+
     </section>
 
   )

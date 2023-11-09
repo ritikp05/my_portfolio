@@ -1,11 +1,12 @@
 
 import React from "react";
 import { BsFire } from "react-icons/bs";
+import {RiHeartsLine} from 'react-icons/ri'
 
 function Contact() {
   return (
     <>
-      <div className="mt-8 flex flex-col items-center h-full p-4 bg-indigo-950 justify-evenly sm:flex lg:flex-row  rounded-3xl lg:rounded-2xl md:rounded-2xl sm:rounded-2xl  sm:py-4 ">
+      <div  className="mt-8 flex flex-col items-center h-full p-4 bg-indigo-950 justify-evenly sm:flex lg:flex-row  rounded-3xl lg:rounded-2xl md:rounded-2xl sm:rounded-2xl  sm:py-4 ">
         <div className="mb-6 font-serif text-3xl font-extrabold text-center text-white ">
           Start a Project
         </div>
@@ -28,7 +29,7 @@ function Contact() {
       </div>
       <div className="flex flex-col items-center justify-center mt-6 h-full pt-8 bg-blue-500">
         <div className=" cursor-pointer font-[Cursive] lg:text-4xl md:text-4xl sm:text-4xl text-3xl  transition ease-in-out delay-150 text-yellow-200 hover:-translate-y-1 hover:scale-110 duration-300">
-       R I T I K 
+        Thanks for visiting!
         </div>
         <div className="flex flex-col justify-center mt-8 text-xl font-semibold">
           <span className="flex justify-center">
@@ -36,7 +37,7 @@ function Contact() {
           </span>
           <span className="flex justify-center">one day at a time</span>
         </div>
-        <div className="flex mt-10 justify-evenly">
+        <div className="flex mt-8 justify-evenly">
           <a
             href="https://www.instagram.com/_ritik05/"
             target="_blank"
@@ -73,7 +74,7 @@ function Contact() {
             />
           </a>
         </div>
-        <div className="mt-24 text-white ">Made with 💕 by Ritik Pandey</div>
+        <div className="mt-14 text-white flex">Made with <RiHeartsLine className="px-1 text-3xl text-red-500 pb-1"/> by Ritik Pandey</div>
       </div>
     </>
   );

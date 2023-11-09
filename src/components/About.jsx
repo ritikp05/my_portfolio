@@ -4,7 +4,7 @@ const About = () => {
     return (
         <>
             <section id='about' className='font-Kalam'>
-                <div className='bg-blue-400 shadow-lg mt-10 mx-auto w-full '>
+                <div className='bg-blue-400 shadow-lg mt-16 mx-auto w-full '>
                     <div className='pt-6 text-3xl font-semibold text-center '>
                         Hii, I'm Ritik Pandey
                         <span className='block lg:inline md:inline sm:inline xl:inline'> Nice to meet you.</span>

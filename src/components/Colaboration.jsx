@@ -4,7 +4,7 @@ import { MdOutlineMessage } from "react-icons/md";
 const Colaboration = () => {
     return (
         <>
-            <div className='flex-col gap-2   w-full'>
+            <div id='contact' className='flex-col gap-2   w-full'>
                 <img src={gif} alt='dd' className='mx-auto  ' />
                 <h1 className='text-center text-4xl font-bold  mt-2'>Interested in collaborating with me?</h1>
                 <p className='text-center  font-semibold mt-2'>I'm always open to collaborate, discuss or partnership opportunities.</p>
