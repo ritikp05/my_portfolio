@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link className='hover:underline hover:cursor-pointer mt-2 text-xl ' to='topbar' spy={true} smooth={true} offset={10}
       duration={1000}
       delay={300}>Home</Link>
-        <Link className='hover:underline hover:cursor-pointer  mt-2 text-xl' to='about' spy={true} smooth={true} offset={-60}
+        <Link className='hover:underline hover:cursor-pointer  mt-2 text-xl' to='about' spy={true} smooth={true} offset={-180}
       duration={1000}
       delay={300}>About</Link>
                 <Link className='hover:underline hover:cursor-pointer  mt-2 text-xl' to='project' spy={true} smooth={true} offset={-60}
@@ -50,7 +50,7 @@ const Navbar = () => {
                     <Link to="topbar" spy={true} smooth={true} offset={5}
       duration={1000}
       delay={300} className='block mb-3 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)} >Home</Link>
-                    <Link to='about' spy={true} smooth={true}  offset={-60}  duration={1000}
+                    <Link to='about' spy={true} smooth={true}  offset={-180}  duration={1000}
       delay={200}  className='block mb-3 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>About</Link>
        <Link to='project' spy={true} smooth={true}  offset={-60}  duration={1000}
       delay={300}  className='block mb-3 text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>Projects</Link>

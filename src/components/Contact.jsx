@@ -6,7 +6,7 @@ import {RiHeartsLine} from 'react-icons/ri'
 function Contact() {
   return (
     <>
-      <div  className="mt-8 flex flex-col items-center h-full p-4 bg-indigo-950 justify-evenly sm:flex lg:flex-row  rounded-3xl lg:rounded-2xl md:rounded-2xl sm:rounded-2xl  sm:py-4 ">
+      <div  className="mt-8 flex flex-col items-center h-full p-4 bg-slate-950 justify-evenly sm:flex lg:flex-row  rounded-3xl lg:rounded-2xl md:rounded-2xl sm:rounded-2xl  sm:py-4 ">
         <div className="mb-6 font-serif text-3xl font-extrabold text-center text-white ">
           Start a Project
         </div>
@@ -18,7 +18,7 @@ function Contact() {
         </div>
         <div className="flex justify-center w-full md:w-fit">
           <a
-            className="flex p-2 mx-10 my-3 text-2xl border border-cyan-500 bg-cyan-200 rounded-xl hover:bg-white"
+            className="flex p-2 mx-10 my-3 text-2xl border border-cyan-500 rounded-xl hover:scale-105 hover:underline   bg-white"
             href="mailto:kushagarakp10@gmail.com@gmail.com"
             target="_blank"
           >
