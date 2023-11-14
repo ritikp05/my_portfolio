@@ -2,6 +2,7 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import img11 from '../assets/img4.jpg'
 import resume from '../assets/resume.pdf';
+import {motion} from "framer-motion";
 const Topbar = () => {
   return (
     <section id='topbar' className='pt-28'>
@@ -44,11 +45,17 @@ const Topbar = () => {
       </div>
       <div className='flex justify-center mt-6 '>
 
-        <a href={resume} download className='block mb-3 text-2xl '>
+      <motion.a
+      // className="box"
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }}
+   
+    href={resume} download="ritik.pdf" className='block mb-3 text-2xl '>
           <button className="button ">
             get my resume
           </button>
-        </a>
+        </motion.a>
 
       </div>
 

@@ -62,7 +62,7 @@ const Technologies = () => {
             <motion.img initial={{ y: -100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ type: "liner", duration: 1.6, delay: 0.9 }}
-              viewport={{ once: true }}       
+              viewport={{ once: true }} 
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" className='w-16 lg:w-24 md:w-24 sm:w-24 hover:scale-110' />
              </div>
         </div>
