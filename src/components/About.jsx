@@ -9,6 +9,11 @@ const About = () => {
                         Hii, I'm Ritik Pandey
                         <span className='block lg:inline md:inline sm:inline xl:inline pb-1'> Nice to meet you.</span>
                     </div>
+                    <h3 className='text-center  text-slate-100  text-xl pb-1'>
+                        I am a self-taught programmer with a passion for
+                        learning and exploring new technologies.
+                    </h3>
+           
                     <h3 className='mt-1 text-center text-slate-100  text-xl pb-1'>
                         Currently a student, Pursuing Diploma in Information Technology  at GP Kashipur,Uttarakhand.
                       <span className='block'>
@@ -17,12 +22,8 @@ const About = () => {
                       </span> 
                   </h3>
 
-                    <h3 className='text-center  text-slate-100  text-xl pb-1'>
-                        I am a self-taught programmer with a passion for
-                        learning and exploring new technologies.
-                    </h3>
                    <h3 className='text-center  text-slate-100  text-xl pb-1'> As a dedicated and driven individual, 
-                   I am constantly seeking out opportunities to grow and improve as a programmer.<span className='block'>and am always eager to expand my skillset and take on new challenges.</span></h3>
+                   I am constantly seeking out opportunities <span className='block'>to grow and improve as a programmer and take on new challenges.</span></h3>
                     <h3 className='text-center  text-slate-100 text-xl pb-8'>
                         Loves to code(obviously), exlporing new places (a lot sometimes), being creative.
                     </h3>
