@@ -1,17 +1,18 @@
 import React from 'react'
 import { motion } from "framer-motion";
 const Technologies = () => {
-
+  
   return (
     <>
 
-      <section className=' mt-16 '>
-        <div className='lg:w-3/4 md:w-10/12 shadow-md  shadow-orange-300 sm:w-10/12 xl:w-10/12  w-11/12 rounded-xl mx-auto  flex-col   gap-14 pt-4 pb-4 justify-center '>
-          <h1 className='lg:text-6xl md:text-6xl sm:text-5xl text-4xl font-medium text-center mb-8  tracking-widest text-white p-4 bg-neutral-700 hover:underline'>Tech Stack</h1>
+      <section className=' mt-16  sm:flex justify-between md:gap-16 sm:gap-12    items-center   shadow-md  shadow-orange-400   border-t-2 border-orange-400   w-11/12  rounded-xl mx-auto pt-4 pb-4 '>
+       <div>
+          <h1 className='lg:text-5xl sm:text-3xl  md:text-4xl xl:px-16 sm:px-5  md:px-6 text-3xl pt-3 pb-3 sm:py-2   font-Tourney text-center sm:tracking-wide tracking-widest text-white  bg-neutral-700 '>Tools <span className='sm:block'>and </span>Technologies</h1>
+    </div>
         
           <div
-            className='grid grid-cols-3 grid-flow-row justify-items-center sm:gap-8 gap-5 sm:my-14 my-5 p-2'>
-
+            className='grid grid-cols-3  grid-flow-row justify-items-center sm:gap-10 gap-5 sm:my-14 my-5 p-4'>
+       
             <motion.img initial={{ y: -100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ type: "liner", duration: 1.6, delay: 0.9 }}
@@ -75,7 +76,6 @@ const Technologies = () => {
          
          
              </div>
-        </div>
       </section>
     </>
   )
