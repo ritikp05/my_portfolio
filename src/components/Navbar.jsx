@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className=' w-full  bg-white shadow-sm shadow-slate-700 h-14 text-black flex justify-between fixed top-0 z-40'>
 
             <section className='flex justify-center items-center'>
-                <h1 className='pl-2 font-Monoton text-4xl text-green-500 tracking-widest  italic  hover:not-italic'><span className='text-5xl '>R</span>ITIK</h1>
+                <h1 className='pl-2 font-Monoton text-4xl text-opacity-100 text-orange-600 tracking-widest  italic  hover:not-italic'><span className='text-5xl '>R</span>ITIK</h1>
             </section>
 
             <section className='sm:flex md:flex lg:flex hidden gap-4 pr-4'>

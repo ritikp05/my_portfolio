@@ -8,9 +8,9 @@ const Projects = ({ name, tech, desc, github, live }) => {
 
     <motion.div initial={{ x: ['-80vw'],opacity:0}}
       whileInView={{ x: 0,opacity:1 }}
-      transition={{ type: "liner", duration: 0.2,delay:0.5}}
-      className=' border-gray-400 border-2 rounded-lg p-4 w-11/12 lg:w-5/6 md:w-5/6 sm:w-5/6  h-auto  cursor-pointer duration-1000'>
-
+      transition={{ type: "liner", duration: 0.5,delay:0.7}}
+      viewport={{ once: true }}     
+      className=' border-gray-400 border-2 rounded-lg p-4 w-11/12  sm:w-5/6  h-auto  cursor-pointer  hover:relative right-2 '>
       <h1 className='text-2xl lg:text-3xl md:text-3xl sm:text-2xl font-semibold  italic text-gray-500 cursor-default '>{name}</h1>
       <h1></h1><div className='mt-3 lg:ml-16'  >
      <div className=' flex gap-3 flex-wrap'>

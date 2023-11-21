@@ -11,7 +11,7 @@ const Topbar = () => {
 
           Hello, I'm
         </span>
-        <div className='font-poppins font-bold text-5xl mt-4 text-orange-600 tracking-widest '>
+        <div className='font-poppins font-bold text-5xl mt-4 text-amber-500 tracking-widest '>
           Ritik Pandey
         </div>  </div>
 
