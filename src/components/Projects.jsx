@@ -2,11 +2,11 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { VscGithubInverted } from "react-icons/vsc";
 import { IoGlobeOutline } from "react-icons/io5";
-const Projects = ({ name, tech, desc, github, live, oddeven }) => {
+const Projects = ({ name, tech, desc, github, live,  }) => {
  
   return (
 
-    <motion.div initial={{ x:oddeven? '100%':'-100%',opacity:0}}
+    <motion.div initial={{ x:'-100%',opacity:0}}
       whileInView={{ x:'0%',opacity:1 }}
       transition={{ type: "liner", duration: 0.5,delay:0.4}}
       viewport={{ once: true }}     
