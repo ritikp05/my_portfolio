@@ -6,8 +6,8 @@ const Projects = ({ name, tech, desc, github, live, oddeven }) => {
  
   return (
 
-    <motion.div initial={oddeven?{ x: '100%',opacity:0}:{ x: '-100%',opacity:0}}
-      whileInView={{ x: "0%",opacity:1 }}
+    <motion.div initial={oddeven?{ x: ['80vw'],opacity:0}:{ x: ['-80vw'],opacity:0}}
+      whileInView={{ x:0,opacity:1 }}
       transition={{ type: "liner", duration: 0.5,delay:0.4}}
       viewport={{ once: true }}     
       className=' border-gray-400 border-2 rounded-lg p-4 w-11/12  sm:w-5/6  h-auto  cursor-pointer  hover:relative right-2 '>
