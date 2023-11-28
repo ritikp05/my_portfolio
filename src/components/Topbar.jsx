@@ -51,7 +51,7 @@ const Topbar = () => {
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
    
     href={resume} download="ritik.pdf" className='block mb-3 text-2xl '>
-          <button className="button ">
+          <button className="button animate-bounce hover:animate-none">
             get my resume
           </button>
         </motion.a>

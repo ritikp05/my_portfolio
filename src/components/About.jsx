@@ -12,7 +12,7 @@ const About = () => {
                     <h3 className='text-center  text-slate-100  text-xl pb-1 leading-8 sm:leading-9'>
                         I am a self-taught programmer with a passion for
                         learning and exploring new technologies.
-                        Currently a student, Pursuing Diploma in Information Technology  at GP Kashipur,Uttarakhand.   
+                        Currently Pursuing Diploma in Information Technology  at GP Kashipur, Uttarakhand.   
                        developing scalable frontend using HTML, CSS and React.js.
                     As a dedicated and driven individual, 
                    I am constantly seeking out opportunities 

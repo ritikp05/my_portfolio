@@ -2,13 +2,13 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { VscGithubInverted } from "react-icons/vsc";
 import { IoGlobeOutline } from "react-icons/io5";
-const Projects = ({ name, tech, desc, github, live }) => {
+const Projects = ({ name, tech, desc, github, live, oddeven }) => {
  
   return (
 
-    <motion.div initial={{ x: ['-80vw'],opacity:0}}
-      whileInView={{ x: 0,opacity:1 }}
-      transition={{ type: "liner", duration: 0.5,delay:0.7}}
+    <motion.div initial={oddeven?{ x: '100%',opacity:0}:{ x: '-100%',opacity:0}}
+      whileInView={{ x: "0%",opacity:1 }}
+      transition={{ type: "liner", duration: 0.5,delay:0.4}}
       viewport={{ once: true }}     
       className=' border-gray-400 border-2 rounded-lg p-4 w-11/12  sm:w-5/6  h-auto  cursor-pointer  hover:relative right-2 '>
       <h1 className='text-2xl lg:text-3xl md:text-3xl sm:text-2xl font-semibold  italic text-gray-500 cursor-default '>{name}</h1>
@@ -19,7 +19,7 @@ const Projects = ({ name, tech, desc, github, live }) => {
 
 return(
  
-    <button className='px-2 border-2 cursor-default border-green-500 hover:bg-green-500 hover:text-white rounded-md' key={index}>{elem}</button>
+    <button className='px-2 border-2 cursor-default border-green-500 hover:bg-green-500 hover:text-white rounded-md ' key={index}>{elem}</button>
  
 )
       })

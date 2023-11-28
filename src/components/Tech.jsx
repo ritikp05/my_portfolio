@@ -2,6 +2,7 @@ import React from 'react'
 import { data } from "../Data/data"
 import Projects from './Projects'
 const Tech = () => {
+    let oddeven;
     return (
 
         <div id='project'>
@@ -14,9 +15,11 @@ const Tech = () => {
       
             {
                 data.map((data) => {
+
+                    (data.id%2)===0? oddeven=true :oddeven=false ;
                     return (
                         <div className='flex mt-8 justify-center' key={data.id}>
-                        <Projects  name={data.name} tech={data.Tech} desc={data.Desc} github={data.github} live={data.live}></Projects>
+                        <Projects  oddeven={oddeven} name={data.name} tech={data.Tech} desc={data.Desc} github={data.github} live={data.live}></Projects>
                         
                         </div> 
                         
