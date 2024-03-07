@@ -1,15 +1,20 @@
-import React from 'react'
-
+import React from "react"
+import {motion} from "framer-motion"
 const About = () => {
     return (
         <>
-            <section id='about' className='font-Kalam mb-4'>
-                <div className='bg-blue-400 shadow-lg mt-14 px-1 sm:px-64 pb-8  mx-auto w-full '>
-                    <div className='pt-8 pb-1 text-3xl font-semibold text-center '>
-                        Hii, I'm Ritik Pandey
+            <motion.section id='about' className='font-Kalam mb-4 w-full mt-10 flex items-center shadow-orange-200 bg-blue-200 shadow-2xl'
+               initial={{ opacity: 0, y: -20 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.5, delay: 0.7 }}
+               viewport={{ once: true }}
+           >
+                <div className=' mt-14 px-1 sm:px-64 pb-8  mx-auto  w-full'>
+                    <div className='pt-8 pb-1 text-xl font-semibold text-center'>
+                        Hii, I m Ritik Pandey
                         <span className='block lg:inline md:inline sm:inline xl:inline pb-1'> Nice to meet you.</span>
                     </div>
-                    <h3 className='text-center  text-slate-100  text-xl pb-1 leading-8 sm:leading-9'>
+                    <h3 className='text-center   text-xl pb-1 leading-8 sm:leading-9'>
                         I am a self-taught programmer with a passion for
                         learning and exploring new technologies.
                         Currently Pursuing Diploma in Information Technology  at GP Kashipur, Uttarakhand.   
@@ -21,7 +26,7 @@ const About = () => {
                     </h3>
                 </div>
 
-            </section>
+            </motion.section>
         </>
     )
 }

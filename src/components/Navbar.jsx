@@ -1,26 +1,27 @@
-import React, { useState } from 'react'
+import React,{ useState } from 'react'
 import { RiMenu3Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from 'react-scroll';
 const Navbar = () => {
     const [navbar, Setnavbar] = useState(false);
     const [open, setopen] = useState(false)
-    return (<>
-
+     return (<>
         <div className=' w-full  bg-white shadow-sm shadow-slate-700 h-14 text-black flex justify-between fixed top-0 z-40'>
 
             <section className='flex justify-center items-center'>
-                <h1 className='pl-2 font-Monoton text-4xl text-opacity-100 text-orange-600 tracking-widest  italic  hover:not-italic'><span className='text-5xl '>R</span>ITIK</h1>
+                <h1 className='pl-2 font-Monoton text-4xl text-opacity-100 text-orange-600 tracking-widest  italic  hover:not-italic'><span className='text-5xl '>R</span>
+                ITIK
+                </h1>
             </section>
 
             <section className='sm:flex md:flex lg:flex hidden gap-4 pr-4'>
-                <Link className='hover:underline  hover:cursor-pointer mt-2 text-xl ' to='topbar' spy={true} smooth={true} offset={10}
+                <Link className='hover:underline  hover:cursor-pointer mt-2 text-xl ' to='topbar' spy={true} smooth={true} offset={-100}
                     duration={1000}
                     delay={300}>Home</Link>
-                <Link className='hover:underline hover:cursor-pointer  mt-2 text-xl' to='about' spy={true} smooth={true} offset={-180}
+                <Link className='hover:underline hover:cursor-pointer  mt-2 text-xl' to='about' spy={true} smooth={true} offset={-90}
                     duration={1000}
                     delay={300}>About</Link>
-                <Link className='hover:underline hover:cursor-pointer  mt-2 text-xl' to='project' spy={true} smooth={true} offset={-60}
+                <Link className='hover:underline hover:cursor-pointer  mt-2 text-xl' to='project' spy={true} smooth={true} offset={-80}
                     duration={1000}
                     delay={300}>Projects</Link>
                 <Link className='hover:underline hover:cursor-pointer  mt-2 text-xl' to='contact' spy={true} smooth={true} offset={50}
@@ -46,12 +47,12 @@ const Navbar = () => {
         <section
             className={`${open ? " shadow-slate-500 translate-y-0 duration-700" : " -translate-y-80 duration-700"} bg-white shadow-lg sm:hidden fixed top-0 z-50 w-full `}>
             <div className=' mt-9  pb-7 '>
-                <Link to="topbar" spy={true} smooth={true} offset={5}
+                <Link to="topbar" spy={true} smooth={true} offset={-100}
                     duration={1000}
                     delay={300} className='block mb-3 text-center text-2xl hover:underline hover:cursor-pointer' onClick={() => setopen(false)} >Home</Link>
-                <Link to='about' spy={true} smooth={true} offset={-180} duration={1000}
+                <Link to='about' spy={true} smooth={true} offset={-50} duration={1000}
                     delay={200} className='block mb-3 text-2xl text-center hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>About</Link>
-                <Link to='project' spy={true} smooth={true} offset={-60} duration={1000}
+                <Link to='project' spy={true} smooth={true} offset={-70} duration={1000}
                     delay={300} className='block mb-3 text-2xl text-center hover:underline hover:cursor-pointer' onClick={() => setopen(false)}>Projects</Link>
 
                 <Link to='contact' spy={true} smooth={true} offset={50} duration={1000}

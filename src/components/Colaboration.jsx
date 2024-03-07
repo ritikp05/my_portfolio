@@ -1,10 +1,16 @@
 import React from 'react'
 import gif from "../assets/dogGif.gif"
 import { MdOutlineMessage } from "react-icons/md";
+import { motion } from 'framer-motion';
 const Colaboration = () => {
     return (
         <>
-            <div id='contact' className='flex-col gap-2   w-full'>
+            <motion.div id='contact' className='flex-col gap-2   w-full'
+               initial={{ opacity: 0, y: -30 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.5, delay: 0.7 }}
+               viewport={{ once: true }}
+     >
                 <img src={gif} alt='dd' className='mx-auto  ' />
                 <h1 className='text-center text-4xl font-bold  mt-2'>Interested in collaborating with me?</h1>
                 <p className='text-center  font-semibold mt-2'>I'm always open to collaborate, discuss or partnership opportunities.</p>
@@ -18,7 +24,7 @@ const Colaboration = () => {
             Start a Conversation
           </a>
         </div>
-            </div>
+            </motion.div>
         </>
     )
 }
