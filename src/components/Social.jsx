@@ -7,7 +7,7 @@ import {motion} from "framer-motion"
 const Social = () => {
   return (
     <>
-      <motion.div className="flex flex-col   text-3xl sm:fixed sm:top-56 top-60 sm:left-3 left-1 absolute  gap-5 z-50"   initial={{ opacity: 0, x: -25 }}
+      <motion.div className="flex flex-col   text-3xl sm:fixed sm:top-56 top-60 sm:left-3 left-1 absolute  gap-5 z-20"   initial={{ opacity: 0, x: -25 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
             viewport={{ once: true }}
