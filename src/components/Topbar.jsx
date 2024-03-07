@@ -57,7 +57,7 @@ const Topbar = () => {
           </div>
         </motion.div>
 
-        <motion.div className="relative sm:left-36  sm:ml-11  left-2 "   initial={{ opacity: 0, x: 50 }}
+        <motion.div className="relative sm:left-36  sm:ml-11  left-2 "   initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
             viewport={{ once: true }}
