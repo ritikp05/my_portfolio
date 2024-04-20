@@ -1,6 +1,21 @@
 export const data = [
   {
     id: 1,
+    name: "Blogify",
+    Tech: [
+      "Reactjs",
+      "Expressjs",
+      "Tailwind CSS",
+      " Nodejs ",
+      "Mongodb",
+      "Cloudinary",
+    ],
+    Desc: "Blog sharing Mern stack web application",
+    github: "https://github.com/ritikp05/blogify-backend",
+    live: "https://blogify-verce.vercel.app/",
+  },
+  {
+    id: 2,
     name: "E store",
     Tech: [
       " Reactjs ",
@@ -15,25 +30,11 @@ export const data = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: "VisionTube",
-    Tech: [
-      " Reactjs ",
-      "Redux",
-      "Tailwind CSS ",
-      "Material UI ",
-      "Rapid Api",
-    ],
+    Tech: [" Reactjs ", "Redux", "Tailwind CSS ", "Material UI ", "Rapid Api"],
     Desc: "A video streaming web application which includes wide range of categories.",
     github: "https://github.com/ritikp05/VisionTube",
     live: "https://vision-tube-sandy.vercel.app/",
-  },
-  {
-    id: 3,
-    name: "Notes App",
-    Tech: [" Reactjs ", "Redux", " SCSS ", "Material UI "],
-    Desc: "NoteKeeper is a CRUD based note taking app with search functionality.  All data is stored in local storage. ",
-    github: "https://github.com/ritikp05/notes-app",
-    live: "https://noteskeeper01.vercel.app/",
   },
 ];
