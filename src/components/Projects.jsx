@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { VscGithubInverted } from "react-icons/vsc";
 import { IoGlobeOutline } from "react-icons/io5";
-const Projects = ({ name, tech, desc, github, live, id }) => {
+const Projects = ({ name, tech, desc, github, live }) => {
   return (
     <motion.div
       initial={
