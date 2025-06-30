@@ -17,12 +17,14 @@ const About = () => {
                     <h3 className='text-center   text-xl pb-1 leading-8 sm:leading-9'>
                         I am a self-taught programmer with a passion for
                         learning and exploring new technologies.
-                        Currently Pursuing Diploma in Information Technology  at GP Kashipur, Uttarakhand.   
-                       developing scalable frontend using HTML, CSS and React.js.
-                    As a dedicated and driven individual, 
-                   I am constantly seeking out opportunities 
-                   to grow and improve as a programmer and take on new challenges.
-                        Loves to code(obviously), exlporing new places (a lot sometimes), being creative.
+                        Currently Dedicated and detail-oriented IT professional with a
+                        Diploma in Information Technology and practical experience as an
+                        Implementation Engineer at Amrita Technologies. Proven ability to 
+                        manage and configure Hospital Information Systems ,
+                        develop data-driven reports using SQL and TIBCO Jaspersoft, and 
+                        oversee the deployment of releases in staging as well as patch 
+                        creation for live environments. Additionally skilled in MERN stack 
+                        (MongoDB, Express.js, React.js,Node.js)        
                     </h3>
                 </div>
 
